@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: OpenWrt-Netgear3800-Actions
+name: OpenWrt-wdr6500v2-Actions
 
 on:
 # 定时触发
@@ -38,7 +38,7 @@ on:
 env:
   REPO_URL: https://github.com/castiellian/lede.git
   REPO_BRANCH: master
-  DIY_SH: Build_OP_3800.sh
+  DIY_SH: Build_OP_wdr6500v2.sh
   FREE_UP_DISK: false
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: true
@@ -82,7 +82,7 @@ jobs:
     - name: 安装源
       run: cd openwrt && ./scripts/feeds install -a
 
-    - name: 创建自定义配置文件 - OpenWrt-Netgear3800
+    - name: 创建自定义配置文件 - OpenWrt-wdr6500v2
       run: |
         [ -e files ] && mv files openwrt/files
         chmod +x $DIY_SH
