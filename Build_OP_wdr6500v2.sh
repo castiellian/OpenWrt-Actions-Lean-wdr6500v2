@@ -63,7 +63,7 @@ touch ./.config
 cat >> .config <<EOF
 CONFIG_TARGET_ar71xx=y
 CONFIG_TARGET_ar71xx_generic=y
-CONFIG_TARGET_DEVICE_ar71xx_generic_DEVICE_tl-wdr6500-v2=y
+CONFIG_TARGET_ar71xx_generic_DEVICE_tl-wdr6500-v2=y
 CONFIG_PACKAGE_autosamba=y
 CONFIG_PACKAGE_ddns-scripts_no-ip_com=y
 CONFIG_PACKAGE_f2fsck=y
