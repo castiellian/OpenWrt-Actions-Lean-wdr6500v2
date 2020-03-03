@@ -64,35 +64,15 @@ cat >> .config <<EOF
 CONFIG_TARGET_ar71xx=y
 CONFIG_TARGET_ar71xx_generic=y
 CONFIG_TARGET_ar71xx_generic_DEVICE_tl-wdr6500-v2=y
-CONFIG_PACKAGE_autosamba=y
-CONFIG_PACKAGE_ddns-scripts_no-ip_com=y
-CONFIG_PACKAGE_f2fsck=y
-CONFIG_PACKAGE_htop=y
-CONFIG_PACKAGE_nano=y
 CONFIG_PACKAGE_openssh-sftp-client=y
 CONFIG_PACKAGE_openssh-sftp-server=y
 CONFIG_PACKAGE_openssl-util=y
-CONFIG_PACKAGE_kmod-fs-f2fs=y
 CONFIG_PACKAGE_luci-app-webadmin=y
 CONFIG_PACKAGE_luci-app-ipsec-vpnd=y
-CONFIG_PACKAGE_luci-app-nps=y
-CONFIG_PACKAGE_luci-app-samba=y
 CONFIG_PACKAGE_luci-app-ttyd=y
 CONFIG_PACKAGE_ttyd=y
 CONFIG_PACKAGE_luci-app-p910nd=y
 CONFIG_PACKAGE_p910nd=y
-CONFIG_PACKAGE_luci-app-ssr-plus=y
-CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks=y
-CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Simple_obfs=y
-CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray_plugin=y
-CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray=y
-CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan=y
-# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun=y
-CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server=y
-CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Socks=y
-CONFIG_PACKAGE_luci-app-nfs=y
-CONFIG_PACKAGE_nfs-kernel-server=y
-CONFIG_PACKAGE_portmap=y
 EOF
 
 # 
