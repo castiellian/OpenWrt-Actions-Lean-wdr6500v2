@@ -64,15 +64,6 @@ cat >> .config <<EOF
 CONFIG_TARGET_ar71xx=y
 CONFIG_TARGET_ar71xx_generic=y
 CONFIG_TARGET_ar71xx_generic_DEVICE_tl-wdr6500-v2=y
-CONFIG_PACKAGE_openssh-sftp-client=y
-CONFIG_PACKAGE_openssh-sftp-server=y
-CONFIG_PACKAGE_openssl-util=y
-CONFIG_PACKAGE_luci-app-webadmin=y
-CONFIG_PACKAGE_luci-app-ipsec-vpnd=y
-CONFIG_PACKAGE_luci-app-ttyd=y
-CONFIG_PACKAGE_ttyd=y
-CONFIG_PACKAGE_luci-app-p910nd=y
-CONFIG_PACKAGE_p910nd=y
 EOF
 
 # 
